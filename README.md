@@ -10,4 +10,4 @@ Additionally there is another application to config and launch the game. This la
 Requirements
 --------------------------------------
 - Java 2 Standard Edition (J2SE) version 1.8 or later.
-- Dog Game Engine OpenGL 4 version. The static library is this repository.
+- Dog Game Engine OpenGL 4 version. The static library is in this repository.
