@@ -1,0 +1,20 @@
+﻿Build started 21/03/2016 11:40:34 p. m..
+     1>Project "C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Galaxian\Galaxian.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\\..\..\include /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Developer\\" /Fd"x64\Developer\vc140.pdb" /Gd /TP /errorReport:prompt ..\..\..\src\Nivel1.cpp
+         Nivel1.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\dogcolor.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\fxgl.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\include\gl\glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/Developer/x64\Galaxian.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\\..\..\lib\x64 DogEngineOpenGLd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"../../../bin/Developer/x64\Galaxian.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../bin/Developer/x64\Galaxian.lib" /MACHINE:X64 x64\Developer\GalaxianGame.obj
+         x64\Developer\main.obj
+         x64\Developer\Nivel1.obj
+         Galaxian.vcxproj -> C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Galaxian\../../../bin/Developer/x64\Galaxian.exe
+     1>Done Building Project "C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Galaxian\Galaxian.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.61

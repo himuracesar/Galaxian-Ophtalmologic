@@ -1,0 +1,205 @@
+﻿Build started 28/05/2016 03:41:41 p. m..
+     1>Project "C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Galaxian\Galaxian.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\\..\..\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Win32\Developer\\" /Fd"Win32\Developer\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\GalaxianGame.cpp ..\..\..\src\GalaxianStateFactory.cpp ..\..\..\src\ScoresScreen.cpp ..\..\..\src\main.cpp
+         GalaxianGame.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\dogcolor.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\fxgl.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\include\gl\glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(39): warning C4005: 'ID_BULLET_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\class\enemy.h(8): note: see previous definition of 'ID_BULLET_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(33): warning C4005: 'WIDTH_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(33): note: see previous definition of 'WIDTH_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(34): warning C4005: 'HEIGHT_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(34): note: see previous definition of 'HEIGHT_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(33): warning C4005: 'WIDTH_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(33): note: see previous definition of 'WIDTH_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(34): warning C4005: 'HEIGHT_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(34): note: see previous definition of 'HEIGHT_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(44): warning C4005: 'ATTACK': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(44): note: see previous definition of 'ATTACK'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(44): warning C4005: 'ATTACK': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(44): note: see previous definition of 'ATTACK'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(33): warning C4005: 'WIDTH_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(33): note: see previous definition of 'WIDTH_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(34): warning C4005: 'HEIGHT_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(34): note: see previous definition of 'HEIGHT_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel8.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(45): note: see previous definition of 'POINTS_KILL'
+         Generating Code...
+         Compiling...
+         main.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\dogcolor.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\fxgl.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\include\gl\glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(39): warning C4005: 'ID_BULLET_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\class\enemy.h(8): note: see previous definition of 'ID_BULLET_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(33): warning C4005: 'WIDTH_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(33): note: see previous definition of 'WIDTH_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(34): warning C4005: 'HEIGHT_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(34): note: see previous definition of 'HEIGHT_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(33): warning C4005: 'WIDTH_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(33): note: see previous definition of 'WIDTH_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(34): warning C4005: 'HEIGHT_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(34): note: see previous definition of 'HEIGHT_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(44): warning C4005: 'ATTACK': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(44): note: see previous definition of 'ATTACK'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(44): warning C4005: 'ATTACK': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(44): note: see previous definition of 'ATTACK'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(33): warning C4005: 'WIDTH_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(33): note: see previous definition of 'WIDTH_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(34): warning C4005: 'HEIGHT_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(34): note: see previous definition of 'HEIGHT_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel8.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(45): note: see previous definition of 'POINTS_KILL'
+         ScoresScreen.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\dogcolor.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\fxgl.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\include\gl\glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\scoresscreen.cpp(92): warning C4018: '<': signed/unsigned mismatch
+         GalaxianStateFactory.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\dogcolor.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\fxgl.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\include\gl\glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(39): warning C4005: 'ID_BULLET_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\class\enemy.h(8): note: see previous definition of 'ID_BULLET_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(33): warning C4005: 'WIDTH_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(33): note: see previous definition of 'WIDTH_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(34): warning C4005: 'HEIGHT_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(34): note: see previous definition of 'HEIGHT_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel2.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(33): warning C4005: 'WIDTH_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(33): note: see previous definition of 'WIDTH_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(34): warning C4005: 'HEIGHT_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel3.h(34): note: see previous definition of 'HEIGHT_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(44): warning C4005: 'ATTACK': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel1.h(44): note: see previous definition of 'ATTACK'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel4.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(28): warning C4005: 'X_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(28): note: see previous definition of 'X_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(44): warning C4005: 'ATTACK': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(44): note: see previous definition of 'ATTACK'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(29): warning C4005: 'Y_SPACE_ENEMIES': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(29): note: see previous definition of 'Y_SPACE_ENEMIES'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(33): warning C4005: 'WIDTH_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(33): note: see previous definition of 'WIDTH_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(34): warning C4005: 'HEIGHT_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel5.h(34): note: see previous definition of 'HEIGHT_ENEMY'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel6.h(45): note: see previous definition of 'POINTS_KILL'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\nivel8.h(45): warning C4005: 'POINTS_KILL': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\nivel7.h(45): note: see previous definition of 'POINTS_KILL'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/Developer/x86\Galaxian.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\\..\..\lib\x86 DogEngineOpenGLd.lib dxguid.lib dinput8.lib SDL2.lib SDL2main.lib SDL2_image.lib libxml2.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"../../../bin/Developer/x86\Galaxian.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../bin/Developer/x86\Galaxian.lib" /MACHINE:X86 Win32\Developer\Enemy.obj
+         Win32\Developer\HeadsUp.obj
+         Win32\Developer\Scores.obj
+         Win32\Developer\Sound.obj
+         Win32\Developer\XMLParser.obj
+         Win32\Developer\Explosion.obj
+         Win32\Developer\GalaxianGame.obj
+         Win32\Developer\GalaxianStateFactory.obj
+         Win32\Developer\main.obj
+         Win32\Developer\Nivel1.obj
+         Win32\Developer\Nivel2.obj
+         Win32\Developer\Nivel3.obj
+         Win32\Developer\Nivel4.obj
+         Win32\Developer\Nivel5.obj
+         Win32\Developer\Nivel6.obj
+         Win32\Developer\Nivel7.obj
+         Win32\Developer\Nivel8.obj
+         Win32\Developer\ScoresScreen.obj
+         Win32\Developer\Welcome.obj
+         Galaxian.vcxproj -> C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Galaxian\../../../bin/Developer/x86\Galaxian.exe
+     1>Done Building Project "C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Galaxian\Galaxian.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.42

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TROOP>
+	<COLS>7</COLS>
+	<ROWS>3</ROWS>
+	<ROW1>
+		<COL1>X</COL1>
+		<COL2>E</COL2>
+		<COL3>X</COL3>
+		<COL4>X</COL4>
+		<COL5>X</COL5>
+		<COL6>E</COL6>
+		<COL7>X</COL7>
+	</ROW1>
+	<ROW2>
+		<COL1>E</COL1>
+		<COL2>E</COL2>
+		<COL3>E</COL3>
+		<COL4>E</COL4>
+		<COL5>E</COL5>
+		<COL6>E</COL6>
+		<COL7>E</COL7>
+	</ROW2>
+	<ROW3>
+		<COL1>E</COL1>
+		<COL2>E</COL2>
+		<COL3>E</COL3>
+		<COL4>E</COL4>
+		<COL5>E</COL5>
+		<COL6>E</COL6>
+		<COL7>E</COL7>
+	</ROW3>
+</TROOP>

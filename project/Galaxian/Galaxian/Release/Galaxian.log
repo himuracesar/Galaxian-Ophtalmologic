@@ -1,0 +1,84 @@
+﻿Build started 02/04/2016 09:16:22 p. m..
+     1>Project "C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Galaxian\Galaxian.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\\..\..\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\Class\Enemy.cpp ..\..\..\src\Class\HeadsUp.cpp ..\..\..\src\Class\XMLParser.cpp ..\..\..\src\Explosion.cpp ..\..\..\src\GalaxianGame.cpp ..\..\..\src\main.cpp ..\..\..\src\Nivel1.cpp
+         Enemy.cpp
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\../DOGCOLOR.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\FXGL.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\include\GL/glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+     1>..\..\..\src\Class\Enemy.cpp(7): warning C4244: '=': conversion from 'DOGint' to 'DOGfloat', possible loss of data
+         HeadsUp.cpp
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\include\DogEngine/RenderEngine/DOGCOLOR.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\FXGL.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\include\GL/glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+     1>..\..\..\src\Class\HeadsUp.cpp(18): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Class\HeadsUp.cpp(63): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Class\HeadsUp.cpp(81): warning C4018: '<': signed/unsigned mismatch
+         XMLParser.cpp
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>..\..\..\src\Class\XMLParser.cpp(41): warning C4244: 'return': conversion from 'double' to 'DOGfloat', possible loss of data
+         Explosion.cpp
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\DOGCOLOR.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\FXGL.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\include\GL/glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+         GalaxianGame.cpp
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\DOGCOLOR.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\FXGL.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\include\GL/glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\Nivel1.h(35): warning C4005: 'ID_BULLET_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\Class/Enemy.h(8): note: see previous definition of 'ID_BULLET_ENEMY'
+         main.cpp
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\DOGCOLOR.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\FXGL.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\include\GL/glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\Nivel1.h(35): warning C4005: 'ID_BULLET_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\Class/Enemy.h(8): note: see previous definition of 'ID_BULLET_ENEMY'
+         Nivel1.cpp
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\../DOGCOLOR.h(25): warning C4521: 'DOGCOLOR': multiple copy constructors specified
+     1>c:\users\siag006\documents\cesar\projects\galaxian\include\dogengine\renderengine\opengl\FXGL.h(18): warning C4005: 'GL_UNIFORM': macro redefinition
+         C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\include\GL/glew.h(5579): note: see previous definition of 'GL_UNIFORM'
+     1>c:\users\siag006\documents\cesar\projects\galaxian\src\Nivel1.h(35): warning C4005: 'ID_BULLET_ENEMY': macro redefinition
+         c:\users\siag006\documents\cesar\projects\galaxian\src\Class/Enemy.h(8): note: see previous definition of 'ID_BULLET_ENEMY'
+     1>..\..\..\src\Nivel1.cpp(45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\Nivel1.cpp(84): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>..\..\..\src\Nivel1.cpp(110): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(121): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(154): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(188): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(282): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(322): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(392): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(398): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(480): warning C4244: 'initializing': conversion from 'int' to 'DOGfloat', possible loss of data
+     1>..\..\..\src\Nivel1.cpp(481): warning C4244: 'initializing': conversion from 'DOGfloat' to 'DOGint', possible loss of data
+     1>..\..\..\src\Nivel1.cpp(487): warning C4244: '=': conversion from 'int' to 'DOGfloat', possible loss of data
+     1>..\..\..\src\Nivel1.cpp(494): warning C4244: 'initializing': conversion from 'int' to 'DOGfloat', possible loss of data
+     1>..\..\..\src\Nivel1.cpp(495): warning C4244: 'initializing': conversion from 'DOGfloat' to 'DOGint', possible loss of data
+     1>..\..\..\src\Nivel1.cpp(503): warning C4244: '=': conversion from 'int' to 'DOGfloat', possible loss of data
+     1>..\..\..\src\Nivel1.cpp(558): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(566): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(579): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\..\src\Nivel1.cpp(609): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Release\Galaxian.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\\..\..\lib\x86 DogEngineOpenGL.lib dxguid.lib dinput8.lib SDL2.lib SDL2main.lib SDL2_image.lib libxml2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Release\Galaxian.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Release\Galaxian.lib" /MACHINE:X86 /SAFESEH Release\Enemy.obj
+         Release\HeadsUp.obj
+         Release\XMLParser.obj
+         Release\Explosion.obj
+         Release\GalaxianGame.obj
+         Release\main.obj
+         Release\Nivel1.obj
+         Generating code
+         All 1575 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         Galaxian.vcxproj -> C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Release\Galaxian.exe
+     1>Done Building Project "C:\Users\SIAG006\Documents\Cesar\Projects\Galaxian\project\Galaxian\Galaxian\Galaxian.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.12
